@@ -1,7 +1,7 @@
 # HomeAssistant_Saveeye
 SAVEEYE+ FOR ECHELON
 <br>
-# Forord
+## Forord
 Har samlet lidt om opsætning af<br>
 Jeg har efter lang tid, fået min SaveEye til at virke med HomeAssistant MQTT <br>
 det har været en rejse jeg gerne vil se om jeg kan spare andre for<br><br>
@@ -196,7 +196,7 @@ Dette er den første del af enheden, her fortæller vi hvad det er for en sensor
 				state_class: measurement
 
 				
-# Links <br>
+## Links <br>
 	- [MQTT Explore]  - (https://mqtt-explorer.com/) <br>
 	- [SaveEye]       - (https://saveeye.dk/produkt/saveeye-for-echelon/) <br>
 	- [Sensor entity] - (https://developers.home-assistant.io/docs/core/entity/sensor/#available-state-classes) <br>
