@@ -24,34 +24,34 @@ der hedder "mqtt explorer" (se links) med denne kan du også se hvilken data den
 Dette er de data strange der kommer med over fra SaveEye enheden, det næste er at omsætte det<br>
 til noget vi faktisk kan bruge.<br>
 			
-				saveeyeDeviceSerialNumber<br>
-				meterType<br>
-				meterSerialNumber<br>
-				timestamp<br>
-				activeActualConsumption<br>
-						total<br>
-				activeActualProduction<br>
-						total<br>
-				activeTotalConsumption<br>
-						total<br>
-				activeTotalProduction<br>
-						total<br>
-				reactiveActualConsumption<br>
-						total<br>
-				reactiveActualProduction<br>
-						total<br>
-				rmsVoltage<br>
-						L1<br>
-						L2<br>
-						L3<br>
-				rmsCurrent<br>
-						L1<br>
-						L2<br>
-						L3<br>
-				powerFactor<br>
-						L1<br>
-						L2<br>
-						L3<br><br>
+				saveeyeDeviceSerialNumber
+				meterType
+				meterSerialNumber
+				timestamp
+				activeActualConsumption
+						total
+				activeActualProduction
+						total
+				activeTotalConsumption
+						total
+				activeTotalProduction
+						total
+				reactiveActualConsumption
+						total
+				reactiveActualProduction
+						total
+				rmsVoltage
+					L1
+					L2
+					L3
+				rmsCurrent
+					L1
+					L2
+					L3
+				powerFactor
+					L1
+					L2
+					L3
 ## MQTT
 For at få de nødventige data ind i vores MQTT skal vi have dem tilføjet manuelt, dette gøres ved at redigere<br>
 filen "configuration.yaml" denne finder du enten i den SAMBA Share eller ved at installere et AddOn "Studio Code Server"<br>
