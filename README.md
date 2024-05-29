@@ -11,17 +11,17 @@ Første udfordring var at jeg skulle have data ud af enheden, der er ikke mange 
 fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger også her)<br><br>
 
 ## Password:
-		  Det er vigtigt at man laver et password til sin MQTT broker der er under 25 tegn (ingen spesialtegn)<br>
-          dette kan gøres ved at oprette en ny bruger på sin HomeAssistant, da alle bruger har adgang til MQTT<br>
-		  når du så har lavet en ny bruger: dette gøres i /config/users her kan du lave en bruger der kun har<br>
-		  adgang fra lokalt netnærk, denne kan så sættes på i SaveEye appen på din smartphone/tablet<br>
-		  nu kan din SaveEye enhed komme i kontakt med din MQTT broker<br><br>
+Det er vigtigt at man laver et password til sin MQTT broker der er under 25 tegn (ingen spesialtegn)<br>
+dette kan gøres ved at oprette en ny bruger på sin HomeAssistant, da alle bruger har adgang til MQTT<br>
+når du så har lavet en ny bruger: dette gøres i /config/users her kan du lave en bruger der kun har<br>
+adgang fra lokalt netnærk, denne kan så sættes på i SaveEye appen på din smartphone/tablet<br>
+nu kan din SaveEye enhed komme i kontakt med din MQTT broker<br><br>
 ## Test:
-	      Hvis du gerne vil vide om der kommer data fra SaveEye, kan du med fordel hente et lille program<br>
-		  der hedder "mqtt explorer" (se links) med denne kan du også se hvilken data den sender<br>
+Hvis du gerne vil vide om der kommer data fra SaveEye, kan du med fordel hente et lille program<br>
+der hedder "mqtt explorer" (se links) med denne kan du også se hvilken data den sender<br>
 ## Data:
-	      Dette er de data strange der kommer med over fra SaveEye enheden, det næste er at omsætte det<br>
-		  til noget vi faktisk kan bruge.<br>
+Dette er de data strange der kommer med over fra SaveEye enheden, det næste er at omsætte det<br>
+til noget vi faktisk kan bruge.<br>
 			
 				saveeyeDeviceSerialNumber<br>
 				meterType<br>
