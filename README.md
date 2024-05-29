@@ -58,9 +58,9 @@ filen "configuration.yaml" denne finder du enten i den SAMBA Share eller ved at 
 her kan du redigere filen og efterfølgene teste om din konfikuration er korekt.<br><br>
 
 ## Sensor entity:
-				device_class: VOLTAGE<br>
-				unit_of_measurement: V<br>
-Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br>
+				device_class: VOLTAGE
+				unit_of_measurement: V
+    Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br>
 ## YAML
 
 	template:
