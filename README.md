@@ -5,8 +5,8 @@
 Har samlet lidt om opsætning af<br>
 Jeg har efter lang tid, fået min SaveEye til at virke med HomeAssistant MQTT <br>
 det har været en rejse jeg gerne vil se om jeg kan spare andre for<br><br>
-
-# Udfordringer
+![image]() <br>
+## Udfordringer
 Første udfordring var at jeg skulle have data ud af enheden, der er ikke mange informationer<br>
 fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger også her)<br><br>
 
@@ -47,25 +47,26 @@ fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger 
 						L1<br>
 						L2<br>
 						L3<br><br>
-# MQTT
+## MQTT
 For at få de nødventige data ind i vores MQTT skal vi have dem tilføjet manuelt, dette gøres ved at redigere<br>
 filen "configuration.yaml" denne finder du enten i den SAMBA Share eller ved at installere et AddOn "Studio Code Server"<br>
 her kan du redigere filen og efterfølgene teste om din konfikuration er korekt.<br><br>
+![image]() <br>	
 	- Sensor entity:<br>
 				device_class: VOLTAGE<br>
 				unit_of_measurement: V<br>
 Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br><br>
-	#YAML
-	- yaml:<br><code>
+	###YAML
+	- yaml:<br>
 			template:
 				sensor:
 					- name: "saveeye"
 					  unit_of_measurement: W
 					  state: >
 						{{ 3600000000 / (states('sensor.saveeye_latestInterval') | float(0) * 1000)}}
-				<\code>
+
 		Dette er den første del af enheden, her fortæller vi hvad det er for en sensor, og hvilken parameret den har<br>
-		<code>
+
 		mqtt:
 			sensor:
 			  - name: saveeyeDeviceSerialNumber
@@ -189,10 +190,11 @@ Der ligger et link længere nede der forklare "Sensor entity" hvilken type af se
 				device_class: VOLTAGE
 				unit_of_measurement: V
 				state_class: measurement
-		<\code>
+
+![image]() <br>
 				
-# Links
-	- MQTT Explore 		- https://mqtt-explorer.com/ <br>
-	- SaveEye      		- https://saveeye.dk/produkt/saveeye-for-echelon/ <br>
-	- Sensor entity 	- https://developers.home-assistant.io/docs/core/entity/sensor/#available-state-classes <br>
+# Links <br>
+	- [MQTT Explore] 		- (https://mqtt-explorer.com/) <br>
+	- [SaveEye]      		- (https://saveeye.dk/produkt/saveeye-for-echelon/) <br>
+	- [Sensor entity] 		- (https://developers.home-assistant.io/docs/core/entity/sensor/#available-state-classes) <br>
 	
