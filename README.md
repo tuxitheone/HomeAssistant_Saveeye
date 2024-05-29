@@ -5,20 +5,21 @@
 Har samlet lidt om opsætning af<br>
 Jeg har efter lang tid, fået min SaveEye til at virke med HomeAssistant MQTT <br>
 det har været en rejse jeg gerne vil se om jeg kan spare andre for<br><br>
-![image](https://github.com/tuxitheone/HomeAssistant_Saveeye/blob/main/data.JPG) <br>
+
 ## Udfordringer
 Første udfordring var at jeg skulle have data ud af enheden, der er ikke mange informationer<br>
 fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger også her)<br><br>
 
-	- Password: Det er vigtigt at man laver et password til sin MQTT broker der er under 25 tegn (ingen spesialtegn)<br>
-				dette kan gøres ved at oprette en ny bruger på sin HomeAssistant, da alle bruger har adgang til MQTT<br>
-				når du så har lavet en ny bruger: dette gøres i /config/users her kan du lave en bruger der kun har<br>
-				adgang fra lokalt netnærk, denne kan så sættes på i SaveEye appen på din smartphone/tablet<br>
-				nu kan din SaveEye enhed komme i kontakt med din MQTT broker<br><br>
-	- Test:		Hvis du gerne vil vide om der kommer data fra SaveEye, kan du med fordel hente et lille program<br>
-				der hedder "mqtt explorer" (se links) med denne kan du også se hvilken data den sender<br>
-	- Data:		Dette er de data strange der kommer med over fra SaveEye enheden, det næste er at omsætte det<br>
-				til noget vi faktisk kan bruge.<br>
+Password: Det er vigtigt at man laver et password til sin MQTT broker der er under 25 tegn (ingen spesialtegn)<br>
+          dette kan gøres ved at oprette en ny bruger på sin HomeAssistant, da alle bruger har adgang til MQTT<br>
+		  når du så har lavet en ny bruger: dette gøres i /config/users her kan du lave en bruger der kun har<br>
+		  adgang fra lokalt netnærk, denne kan så sættes på i SaveEye appen på din smartphone/tablet<br>
+		  nu kan din SaveEye enhed komme i kontakt med din MQTT broker<br><br>
+Test:	  Hvis du gerne vil vide om der kommer data fra SaveEye, kan du med fordel hente et lille program<br>
+		  der hedder "mqtt explorer" (se links) med denne kan du også se hvilken data den sender<br>
+Data:     Dette er de data strange der kommer med over fra SaveEye enheden, det næste er at omsætte det<br>
+		  til noget vi faktisk kan bruge.<br>
+			
 				saveeyeDeviceSerialNumber<br>
 				meterType<br>
 				meterSerialNumber<br>
@@ -51,12 +52,12 @@ fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger 
 For at få de nødventige data ind i vores MQTT skal vi have dem tilføjet manuelt, dette gøres ved at redigere<br>
 filen "configuration.yaml" denne finder du enten i den SAMBA Share eller ved at installere et AddOn "Studio Code Server"<br>
 her kan du redigere filen og efterfølgene teste om din konfikuration er korekt.<br><br>
-![image]() <br>	
+
 	- Sensor entity:<br>
 				device_class: VOLTAGE<br>
 				unit_of_measurement: V<br>
 Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br><br>
-	###YAML
+	##YAML
 	- yaml:<br>
 			template:
 				sensor:
