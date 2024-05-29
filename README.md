@@ -60,7 +60,7 @@ her kan du redigere filen og efterfølgene teste om din konfikuration er korekt.
 ## Sensor entity:
 				device_class: VOLTAGE
 				unit_of_measurement: V
-    Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br>
+Der ligger et link længere nede der forklare "Sensor entity" hvilken type af sensor der kan bruges i de ovennævntte.<br>
 ## YAML
 
 	template:
