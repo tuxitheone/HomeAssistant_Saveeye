@@ -195,10 +195,9 @@ Dette er den første del af enheden, her fortæller vi hvad det er for en sensor
 				unit_of_measurement: V
 				state_class: measurement
 
-![image]() <br>
 				
 # Links <br>
-	- [MQTT Explore] 		- (https://mqtt-explorer.com/) <br>
-	- [SaveEye]      		- (https://saveeye.dk/produkt/saveeye-for-echelon/) <br>
-	- [Sensor entity] 		- (https://developers.home-assistant.io/docs/core/entity/sensor/#available-state-classes) <br>
+	- [MQTT Explore]  - (https://mqtt-explorer.com/) <br>
+	- [SaveEye]       - (https://saveeye.dk/produkt/saveeye-for-echelon/) <br>
+	- [Sensor entity] - (https://developers.home-assistant.io/docs/core/entity/sensor/#available-state-classes) <br>
 	
