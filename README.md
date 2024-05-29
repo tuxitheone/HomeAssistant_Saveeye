@@ -5,7 +5,7 @@
 Har samlet lidt om opsætning af<br>
 Jeg har efter lang tid, fået min SaveEye til at virke med HomeAssistant MQTT <br>
 det har været en rejse jeg gerne vil se om jeg kan spare andre for<br><br>
-![image]() <br>
+![image](https://github.com/tuxitheone/HomeAssistant_Saveeye/blob/main/data.JPG) <br>
 ## Udfordringer
 Første udfordring var at jeg skulle have data ud af enheden, der er ikke mange informationer<br>
 fra den pdf MQTT som SaveEyekan sende ud hvis man har udfordringer, (Den ligger også her)<br><br>
