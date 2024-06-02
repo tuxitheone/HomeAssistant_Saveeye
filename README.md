@@ -5,7 +5,8 @@ Den pdf der ligger her er lavet af SaveEye i samarbejde med en af deres kunder "
 ## Forord
 Har samlet lidt om opsætning af<br>
 Jeg har efter lang tid, fået min SaveEye til at virke med HomeAssistant MQTT <br>
-det har været en rejse jeg gerne vil se om jeg kan spare andre for<br><br>
+det har været en rejse jeg gerne vil se om jeg kan spare andre for<br>
+Der ligger links i bunden, så du har mulighed for at læse mere<br>
 
 ## Udfordringer
 Første udfordring var at jeg skulle have data ud af enheden, der er ikke mange informationer<br>
